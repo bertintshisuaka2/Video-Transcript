@@ -1,0 +1,16 @@
+{
+  "query": "SELECT id, videoTitle, LENGTH(transcriptText) as text_length, SUBSTRING(transcriptText, 1, 100) as text_preview FROM transcripts WHERE id = 90001;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 1bm1SSQvxoeV96i.250eb03597c0 --database 2MRee3kuoo586c5T2osfKC --execute SELECT id, videoTitle, LENGTH(transcriptText) as text_length, SUBSTRING(transcriptText, 1, 100) as text_preview FROM transcripts WHERE id = 90001;",
+  "rows": [
+    {
+      "id": "90001",
+      "videoTitle": "NULL",
+      "text_length": "0",
+      "text_preview": ""
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tvideoTitle\ttext_length\ttext_preview\n90001\tNULL\t0\t\n",
+  "stderr": "",
+  "execution_time_ms": 108
+}

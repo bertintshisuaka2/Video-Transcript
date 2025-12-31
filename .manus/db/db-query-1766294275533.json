@@ -1,0 +1,40 @@
+{
+  "query": "SELECT id, videoTitle, videoId, LENGTH(transcriptText) as text_len FROM transcripts ORDER BY id DESC LIMIT 5;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 1bm1SSQvxoeV96i.250eb03597c0 --database 2MRee3kuoo586c5T2osfKC --execute SELECT id, videoTitle, videoId, LENGTH(transcriptText) as text_len FROM transcripts ORDER BY id DESC LIMIT 5;",
+  "rows": [
+    {
+      "id": "90001",
+      "videoTitle": "NULL",
+      "videoId": "jNQXAC9IVRw",
+      "text_len": "0"
+    },
+    {
+      "id": "60001",
+      "videoTitle": "NULL",
+      "videoId": "AOOJ4vOmfyA",
+      "text_len": "0"
+    },
+    {
+      "id": "30002",
+      "videoTitle": "NULL",
+      "videoId": "xloOFm6sTtQ",
+      "text_len": "0"
+    },
+    {
+      "id": "30001",
+      "videoTitle": "NULL",
+      "videoId": "2z6Cj2sqcNk",
+      "text_len": "0"
+    },
+    {
+      "id": "18",
+      "videoTitle": "NULL",
+      "videoId": "dQw4w9WgXcQ",
+      "text_len": "0"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tvideoTitle\tvideoId\ttext_len\n90001\tNULL\tjNQXAC9IVRw\t0\n60001\tNULL\tAOOJ4vOmfyA\t0\n30002\tNULL\txloOFm6sTtQ\t0\n30001\tNULL\t2z6Cj2sqcNk\t0\n18\tNULL\tdQw4w9WgXcQ\t0\n",
+  "stderr": "",
+  "execution_time_ms": 50
+}

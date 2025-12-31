@@ -1,0 +1,1 @@
+ALTER TABLE `transcripts` MODIFY COLUMN `userId` int;

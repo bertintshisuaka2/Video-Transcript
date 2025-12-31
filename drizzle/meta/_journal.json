@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1766292085567,
+      "tag": "0000_fluffy_marvel_apes",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1766292196026,
+      "tag": "0001_dear_tag",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1766292794072,
+      "tag": "0002_common_joshua_kane",
+      "breakpoints": true
+    }
+  ]
+}
